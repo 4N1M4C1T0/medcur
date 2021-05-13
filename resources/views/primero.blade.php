@@ -20,7 +20,7 @@
 </header>
 <section>
     <a href="layout" class={{ Request::path()=="/layout"?"actual":""}}>USUARIOS</a><br>
-    <a href="layout1" class={{ Request::path()=="/layout1"?"actual":""}}>PEDIDOS</a>
+    <a href="layout1" class={{ Request::path()=="/layout1"?"actual":""}}>PEDIDOS</a><br>
     <a href="layout2" class={{ Request::path()=="/layout2"?"actual":""}}>SEGUIMIENTOS</a>
 </section>
 
