@@ -21,6 +21,7 @@ use App\Http\Controllers\SeguimientoController;
 Route::view('/', "primero");
 Route::view("/layout","layout");
 Route::view("/layout1","layout1");
+Route::view("/layout2","layout2");
 
 
 
