@@ -4,7 +4,7 @@
 
     <form action="/ped" method="POST">
         @csrf
-        <input type="nomber" name="importe_total"  placeholder="IMPORTE TOTAL" >
+        <input type="number" name="importe_total"  placeholder="IMPORTE TOTAL" >
         @error('importe_total')
         <br>
         <span style="color: darkred">{{$message}}</span>
